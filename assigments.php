@@ -1,12 +1,9 @@
-<?php
-    include"./includes/functions.php";
-?>
+<?php include"./includes/functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Assignments Page'); ?>
     
     <body>
-
         <!-- Header -->
         <header>               
             <div class="container content">

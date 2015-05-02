@@ -31,7 +31,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #0a1927;
-    background-image: url(../img/P1080479.jpg);
+    background-image: url('../img/P1080479.jpg');
 }
 
 h1,
@@ -97,7 +97,7 @@ p {
     bottom: 50px;
     right: 100px;
     display: none;
-    background-image: url(../img/arrow-up.png);
+    background-image: url('../img/arrow-up.png');
     background-size: contain;
     text-indent: -9999px;
 }

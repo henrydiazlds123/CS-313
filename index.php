@@ -1,6 +1,5 @@
-<?php
-    include"./includes/functions.php";
-?>
+<?php include"./includes/functions.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Home'); ?>    
@@ -25,7 +24,7 @@
         <section id="about">
             <h2>Henry J. Diaz Olivero</h2>
             <article class="aboutme">
-                <img class="img-rounded" src="./img/family_copy.jpg" alt="My Family Picture">
+                <img class="img-rounded" src="img/family_copy.jpg" alt="My Family Picture">
                 My name is Henry and am originally from Venezuela. I was baptized in the Church when I was 13 years old. In 1993, I served in the Venezuela Maracaibo Mission. In 2000 I moved to Puerto Rico, where I stayed for about 11 years. In 2011 we moved to Massachusetts pursuing a better education for my eldest son as he presented slurred speech from very early age.
                 Being in an activity organized by the ward to which I attend, I met Elder Hopkin who spoke concerning Pathway and BYU-Idaho. With what little I could understand, because my English control was (and still is) quite bad, I decided to return to school.
                 My major is in Web Design & Development with emphasis on development, because I do not feel good mixing colors and making things look nice.
