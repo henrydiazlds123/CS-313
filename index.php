@@ -66,6 +66,35 @@
             </div>
         </section>
         <!-- End Locate Section -->
+                <section id="social">
+            <div class="container content">                
+                <h2>CONNECT WITH ME</h2>                
+                <!-- Social Icons -->
+                <ul class="social-icon-container">
+                    <li>
+                        <a href="http://www.facebook.com/henrydiazlds123" target="_blank">
+                            <img src="img/social-icons/facebook.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/henrydiazlds123" target="_blank">
+                            <img src="img/social-icons/twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/henrydiazlds123" target="_blank">
+                            <img src="img/social-icons/youtube.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="img/social-icons/google+.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Social Icons -->                
+            </div>
+        </section>
         
         <a href="#" class="scrollup"></a>
         

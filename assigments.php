@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Assignments Page'); ?>
-    
     <body>
         <!-- Header -->
         <header>               
@@ -54,27 +53,32 @@
         <!-- End About Section -->
         <section id="social">
             <div class="container content">                
-                <h2>CONNECT WITH ME</h2>                
+                <h2>ASSIGMENTS</h2>                
                 <!-- Social Icons -->
                 <ul class="social-icon-container">
                     <li>
-                        <a href="http://www.facebook.com/henrydiazlds123" target="_blank">
-                            <img src="img/social-icons/facebook.png" alt="">
+                        <a href="./my_survey/index.php" rel="tooltip" title="First Assigment: Survey" target="_blank">
+                            <img src="img/assig/survey4.gif" alt="survey icon">
                         </a>
                     </li>
                     <li>
-                        <a href="http://twitter.com/henrydiazlds123" target="_blank">
-                            <img src="img/social-icons/twitter.png" alt="">
+                        <a href="#" rel="tooltip" title="Spiritual Thought" target="_blank">
+                            <img src="img/assig/Question-icon.png" alt="survey icon">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/user/henrydiazlds123" target="_blank">
-                            <img src="img/social-icons/youtube.png" alt="">
+                        <a href="#" rel="tooltip" title="Coming soon" target="_blank">
+                            <img src="img/assig/coming_soon.png" alt="survey icon">
                         </a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">
-                            <img src="img/social-icons/google+.png" alt="">
+                        <a href="#" rel="tooltip" title="Coming soon" target="_blank">
+                            <img src="img/assig/coming_soon.png" alt="survey icon">
+                        </a>
+                    </li>                    
+                    <li>
+                        <a href="#" rel="tooltip" title="Coming soon" target="_blank">
+                            <img src="img/assig/coming_soon.png" alt="survey icon">
                         </a>
                     </li>
                 </ul>

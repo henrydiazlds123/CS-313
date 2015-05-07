@@ -1,0 +1,4 @@
+What is your age?,Under 12 years old,12 - 25 years old,26 - 40 years old,41 - 60 years old,61 years or older
+What is your marital status?,Single - never married,Married or domestic partnership,Widowed,Divorced,Separated
+Please specify your ethnicity,White, Hispanic or Latino, Black or African American, Native American or American Indian, Asian / Pacific Islander, Other
+What is your favorite season?,Winter,Spring,Summer,Fall
