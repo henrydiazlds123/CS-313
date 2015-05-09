@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Home'); ?>    
-    <body style"background-image: url('img/P1080479.jpg')">
+    <body>
 
         <!-- Header -->
         <header>               

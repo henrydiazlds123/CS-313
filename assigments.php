@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Assignments Page'); ?>
-    <body style"background-image: url('img/P1080479.jpg')">
+    <body>
         <!-- Header -->
         <header>               
             <div class="container content">
