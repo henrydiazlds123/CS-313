@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php heading('WDS | Assignments Page'); ?>
-    <body>
+    <body style"background-image: url('img/P1080479.jpg')">
         <!-- Header -->
         <header>               
             <div class="container content">
@@ -88,7 +88,7 @@
         
         <!-- Javascript -->
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery-lwtCountdown-1.0.js"></script>
+        <script type="text/javascript" src="js/jquery-lwtCountDown-1.0.js"></script>
         <script type="text/javascript" src="js/countdown_setup.js"></script>
         <script type="text/javascript" src="js/scrollup.js"></script>        
         <!-- End Javascripts -->        
