@@ -4,9 +4,9 @@ $(document).ready(function() {
                         'day': 9,
                         'month': 5,
                         'year': 2015,
-                        'hour': 12,
-                        'min': 00,
-                        'sec': 0
+                        'hour': 23,
+                        'min': 59,
+                        'sec': 59
                     },
                 });
             });

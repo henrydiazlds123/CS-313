@@ -31,17 +31,17 @@
                     </div>
                     <div class="dash hours_dash">
                         <span class="dash_title">hours</span>
-                        <div class="digit">0</div>
-                        <div class="digit">0</div>
+                        <div class="digit">1</div>
+                        <div class="digit">6</div>
                     </div>
                     <div class="dash minutes_dash">
                         <span class="dash_title">minutes</span>
-                        <div class="digit">0</div>
-                        <div class="digit">0</div>
+                        <div class="digit">3</div>
+                        <div class="digit">5</div>
                     </div>
                     <div class="dash seconds_dash">
                         <span class="dash_title">seconds</span>
-                        <div class="digit">0</div>
+                        <div class="digit">1</div>
                         <div class="digit">0</div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
         
         <!-- Javascript -->
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+        <script type="text/javascript" src="js/jquery-lwtCountdown-1.0.js"></script>
         <script type="text/javascript" src="js/countdown_setup.js"></script>
         <script type="text/javascript" src="js/scrollup.js"></script>        
         <!-- End Javascripts -->        
