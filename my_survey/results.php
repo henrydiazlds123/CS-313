@@ -14,8 +14,9 @@ printPoll($pollB, '1');
 printPoll($pollC, '2');
 printPoll($pollD, '3');
 echo"<div class='col-md-6'>
-            <div class='box but'>
-            <a href='javascript:history.back()' class='btn btn-default btn-lg btn-block'>Go Back</a>
+            <div class='box but'>";
+if (!isset($_SESSION["Last_Activity"])) {
+            echo "<a href='javascript:history.back()' class='btn btn-default btn-lg btn-block'>Go Back</a>
             </div></div>";
-
+};
 include "footer.html";
