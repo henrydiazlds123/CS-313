@@ -14,8 +14,9 @@
                         <h5><a href="index.php">Home</a></h5>
                     </div>
                 </div>
-                <h1 id="main-text">Assignments Page is comming soon</h1>
+                <h1 id="main-text">Assignments Page is Here</h1>
                 <h3 id="second-text">Web Engineering II - CS 313</h3>
+                <h3 id="second-text">Next Team-Readiness</h3>
          
                 <!-- Countdown start -->
                 <div id="countdown_dashboard">
@@ -67,13 +68,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" rel="tooltip" title="Coming soon" target="_blank">
-                            <img src="img/assig/coming_soon.png" alt="survey icon">
+                        <a href="./Team_Readiness/02_Scriptures/index.php" rel="tooltip" title="Team Readiness 02" target="_blank">
+                            <img src="img/assig/scriptures.png" alt="survey icon">
                         </a>
                     </li>
                     <li>
-                        <a href="#" rel="tooltip" title="Coming soon" target="_blank">
-                            <img src="img/assig/coming_soon.png" alt="survey icon">
+                        <a href="./Team_Readiness/03_Scriptures/index.php" rel="tooltip" title="Team Readiness 03" target="_blank">
+                            <img src="img/assig/scriptures.png" alt="survey icon">
                         </a>
                     </li>                    
                     <li>

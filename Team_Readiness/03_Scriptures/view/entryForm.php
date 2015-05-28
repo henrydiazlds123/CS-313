@@ -8,7 +8,7 @@ include('./model/query.php');
 <head>
     <meta charset="UTF-8">
     <title>Team Readiness | Scriptures</title>
-    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <style>
     fieldset.scheduler-border {
         border: 1px groove #ddd !important;
