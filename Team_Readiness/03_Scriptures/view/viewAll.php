@@ -8,7 +8,7 @@ include('../model/qryViewAll.php');
 <head>
     <meta charset="UTF-8">
     <title>Team Readiness | Scriptures</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
 </head>
 <body>
 <nav class="navbar navbar-default">
