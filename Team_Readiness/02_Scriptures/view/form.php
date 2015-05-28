@@ -11,8 +11,9 @@ include('./model/query.php');
 </head>
 <body>
 <h3>SCRIPTURE RESOURCES</h3>
-<?php listCollection() ?>
-
+<?php listCollection(); ?>
+<br>
+<h3>Stretch Challenge 1:</h3>
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
     <label for="searchBook">Book: </label>
     <select name="searchBook" onchange="this.form.submit();">
