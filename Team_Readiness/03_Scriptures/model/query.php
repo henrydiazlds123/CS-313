@@ -115,8 +115,7 @@ function addScripture($book, $chapter, $verse, $content)
         $statement->bindValue(':content', $content);
         $statement->execute();
         $lastID = $db->lastInsertId();
-        //print $db->lastInsertId();
-        //print($lastID);
+        
         return $lastID;
     } catch (PDOException $e) {
         display_db_error($e->getMessage());
