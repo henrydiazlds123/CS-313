@@ -16,7 +16,7 @@ session_start();
 
 <?php
 if (($_SESSION['lastActivity'] + 300) > time()) {
-    echo "<p>Gracias por registrarse. Por favor, use las credenciales que acaba de establecer para ingresar al sitio.</p>";
+    echo "<p>Thank you for registering. Please use the credentials you just set to enter the site.</p>";
 }
 ?>
     <div class="container">

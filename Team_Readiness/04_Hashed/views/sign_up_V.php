@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>CS313 | Sign Up</title>
     <link rel="stylesheet" href="../public/css/style.css">
+    <script href="../public/js/jquery-1.11.3.min.js"></script>
+    <script>
+            
+    </script>
 
 </head>
 <body>
@@ -45,6 +49,7 @@
                 <div class="form-group">
                     <label for="">Confirm your Password</label>
                     <input type="password" class="form-control" name="_password2" placeholder="enter your password">
+                    <div class="error" id="errorMatch"></div>
                     <?php
                     /**
                      * Display error messages if the "password2" field is empty
@@ -65,5 +70,6 @@
             </form>
         </div>
     </div>
+    
 </body>
 </html>
