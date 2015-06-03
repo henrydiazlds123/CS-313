@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>CS313 | Sign Up</title>
-    <link rel="stylesheet" href="../public/css/style.css">
     <script href="../public/js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+        <style>
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow: 0px 0px 0px 0px #000;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+    
+    legend.scheduler-border {
+        width: inherit;
+        /* Or auto */
+        
+        padding: 0 10px;
+        /* To give a bit of padding on the left and right */
+        
+        border-bottom: none;
+    }
+    </style>
     <script>
             
     </script>
@@ -14,7 +34,8 @@
     <div class="container">
         <div class="row">
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" role="form">
-                <legend>Sign-Up Form</legend>
+                <fieldset class="scheduler-border">
+                <legend class="scheduler-border">Sign-Up Form</legend>
 
                 <div class="form-group">
                     <label for="">Username</label>
@@ -67,6 +88,7 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Register</button>
+                </fieldset>
             </form>
         </div>
     </div>

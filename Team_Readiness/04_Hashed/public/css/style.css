@@ -2,8 +2,10 @@
     color: red;
 }
 .asterisk_input:after {
-content:" *"; 
-color: #e32;
-position: absolute; 
-margin: 0px 0px 0px -10px; 
-padding: 0 5px 0 0; }
+  content: " *";
+  color: #e32;
+  position: absolute;
+  margin: -28px 0px 0px 5px;
+  padding: 0 5px 0 0;
+  font-size: large;
+}
