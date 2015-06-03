@@ -8,7 +8,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>CS313 | Sign In</title>
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
         <style>
@@ -32,7 +32,7 @@ session_start();
     </style>
 </head>
 <body>    
-<h2>Welcome <?php echo $_SESSION['user'];?></h2>
+
 
 <?php
 if (($_SESSION['lastActivity'] + 300) > time()) {
@@ -41,6 +41,7 @@ if (($_SESSION['lastActivity'] + 300) > time()) {
 ?>
     <div class="container">
         <div class="row">
+        <h2>Welcome <?php echo $_SESSION['user'];?></h2>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" role="form">
                 
                 <fieldset class="scheduler-border">
