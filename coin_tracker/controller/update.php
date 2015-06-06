@@ -23,4 +23,4 @@ if ($type == '2') {
 
 
 updateTransaction($ID, $amount, $note, $_date, $catID);
-//header('Location:../view/report.php');
+header('Location:../view/report.php');
