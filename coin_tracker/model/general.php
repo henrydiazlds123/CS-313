@@ -34,7 +34,7 @@ function showTable($query, $page)
                     '<td>'.$key[date].'</td>'.
                     '<td>'.$key[note].'</td>'.
                     '<td>'.
-                        '<form name="editTrans" action="../controller/action.php" method="POST">'.
+                        '<form name="editTrans" action="../view/update.php" method="POST">'.
                             '<input type="hidden" name="_page" value="'.$page.'"/>'.
                             '<input type="hidden" name="_trans_ID" value="'.$key[trans_ID].'"/>'.
                             '<input type="submit" name="action" value="Edit"/>'.
@@ -55,7 +55,7 @@ function showTable($query, $page)
     return $html;
 }
 
-function dropDownList($query)
+function dropDownList($query, $selected)
 {
     $result = getRows($query);
     $html = '';
@@ -64,7 +64,11 @@ function dropDownList($query)
             '<option value="">select</option>';
 
     foreach ($result as $key) {
-        $html .= '<option value="'.$key[cat_ID].'">'.$key[cat_name].'</option>';
+        $html .= '<option value="'.$key[cat_ID].';"';
+        if ($selected == $key[cat_name]) {
+            $html .= 'selected';
+        }
+        $html .= '>'.$key[cat_name].'</option>';
     }
     $html .= '<option value="Other">Other</option>'.
             '</select>'.
@@ -270,5 +274,47 @@ function myReport()
         '</section>'.
         '<footer class="footer row">BYU-Idaho   *   Web Engineering II   *   CS 313   *   Spring 2015</footer></main>';
     //write results to page
+    writeHTML($b, $d, $f, $g);
+}
+function myUpdate()
+{
+
+    $b = menuList('Home', 'listview');
+    $d = menuList('Home', 'rmm-toggled', 'z-index:1000');
+    $f = menuList('Home', 'rmm-main-list');
+    $g = '</div>' .
+            '</nav>' .
+            '<section class="body row scroll-y">' ;
+
+            //     '<div class="welcome">' .
+            //         '<h1>WELCOME TO COIN TRACKER</h1>' .
+            //         '<img class="coin" src="./img/coin.png" alt="coin rotate">' .
+            //     '</div>' .
+            //     '<p>With this app you are able to track your monthly income and expenses.  Coin Tracker allows you to store these items on your phone for easy access and without the hassle of paper.<br/>  We hope this app enables your to have a better experience with budgeting your finances.</p>' .
+     $g .=       '<h2>Update Data</h2>'.
+            '<form action="../controller/update.php" id="transactions-form" role="form" method="POST">'.
+            '<div class="form-group">'.
+            '<br>'.
+            '<label for="category">Category</label>'.
+            '<input type="text" class="form-control" name="_category" value="'.$c_n.'" placeholder="category">'.
+            '<br>'.
+            '<label for="amount">Amount</label>'.
+            '<input type="text" class="form-control" name="_amount" placeholder="$" value="'.$t_a.'" required>'.
+            '<br>'.
+            '<label for="trans_date">Date</label>'.
+            '<input type="date" class="form-control" name="_trans_date" value="'.$t_d.'"required>'.
+            '<br>'.
+            '<label for="note">Comments</label>'.
+            '<input type="text" class="form-control" name="_note" value="'.$t_n.'" placeholder="comments">'.
+            '</div>'.
+            '<br>'.
+            '<input type="button" class="btn btn-warning" name="_discard" value="Discard">'.
+            '<input type="submit" class="btn btn-success" name="_save" value="Save">'.
+            '<input type="hidden" class="btn btn-primary" name="_trans_ID" value="'.$t_i.'">'.
+            '</form>'.
+            '</section>' .
+            '<footer class="footer row">BYU-Idaho   *   Web Engineering II   *   CS 313   *   Spring 2015</footer></main>';
+    
+    //write to page
     writeHTML($b, $d, $f, $g);
 }
